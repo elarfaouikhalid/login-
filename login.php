@@ -142,7 +142,8 @@ foreach($data as $d)
 	}
 }
 }}
-
+$query=null;
+$db=null;
 ?>
         </div>
 			<input type="email" name="email" value="<?php echo $email ?>"  placeholder="Email">
