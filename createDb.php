@@ -17,7 +17,7 @@ class CreateDb
       $this->server = $server;
       $this->user = $user;
     }
-
+//create database and table 
     public function create($db,$table)
     {
         try{
@@ -37,6 +37,7 @@ class CreateDb
                 return;
             }
     }
+        //connect to this database 
     public function connect($db)
     {
         try{
