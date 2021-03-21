@@ -122,6 +122,7 @@ $create->create($db,$table);
 	<?php
 $email=$_POST['email'] ?? "";
 $password=$_POST['password'] ?? "";
+			//check this user using email and password
 if(isset($_POST['send'])){
 $db_name=$create->connect($db);
 
